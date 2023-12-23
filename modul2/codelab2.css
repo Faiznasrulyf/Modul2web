@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------
+# Navbar Section
+--------------------------------------------------------------*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .nav-link {
+    margin: 0 20px;
+  }
+  
+  .btn-signup-login {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .btn {
+    margin-left: 10px;
+  }
+  
+  .navbar-toggler {
+    order: 1;
+  }
+  
+  .navbar-brand img {
+    order: 0;
+  }
+  .navbarr {
+    margin-left: 0px;
+  }
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-link,
+    .btn-signup-login {
+      margin: 10px 0;
+    }
+  
+    .btn-signup-login {
+      margin-left: auto;
+      order: 2;
+    }
+  }
+
+.persegi {
+    width: 250px; /* Ubah lebar sesuai keinginan Anda */
+    height: 300px; /* Ubah tinggi sesuai keinginan Anda */
+    background-color: rgb(149, 29, 141); /* Ubah warna latar belakang sesuai keinginan Anda */
+    margin: 0 auto; /* Mengatur margin secara otomatis untuk menengahkan elemen */
+    align-items: center;
+    justify-content: center;
+
+}
